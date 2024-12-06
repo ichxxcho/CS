@@ -15,6 +15,7 @@ const AdminPage = ({ currentUser }) => {
   const [error, setError] = useState(null);
   const [success, setSuccess] = useState(null);
   const router = useRouter(); // Initialize useRouter
+  
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
